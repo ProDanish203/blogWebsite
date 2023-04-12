@@ -1,2 +1,18 @@
-//Git status - to check if it has already been initialized or not
-//git init - to initialize the project
+git status - to check if it has already been initialized or not
+git init - to initialize the project
+git add -A - Adds all files
+git commit -m "comment" - to commit the repo
+
+git remote add origin https://github.com/ProDanish203/blogWebsite.git
+git push -u origin master
+
+"homepage": "http://ProDanish203.github.io/appName", - Add this to your package.json file with appropriate link
+
+npm install --save gh-pages - install the package 
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+
+add these in package.json file in scripts
+
+then run the script "npm run deploy"
