@@ -1,0 +1,20 @@
+.paginate-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.paginate-item{
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: var(--main);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.paginate-item:hover{
+    background-color: var(--purple);
+}

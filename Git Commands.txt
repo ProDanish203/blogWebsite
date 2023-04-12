@@ -1,0 +1,2 @@
+//Git status - to check if it has already been initialized or not
+//git init - to initialize the project
